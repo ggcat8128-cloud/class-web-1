@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body {
+    display: flex;
+    justify-content: center;
+}    
+.img{
+    height: 773px;
+    width: 1440px;
+    background-image: url("HeroImage.png");
+
+    
+}
+
+.test{
+
+    display: flex;
+height: 100px;
+width:1440px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Vector{
+    background-image: url(Vector.png);
+    height:15px;
+    width:11.67px;
+}
+
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tool{
+    display: flex;
+    gap: 24px;
+   
+}     
+.pure{
+    color: #E8EDF2B8;
+    height: 80px;
+    width: 618px;
+}
+.AWAITS{
+    height: 394px;
+    width: 618px;
+    color: aliceblue;
+}
+
+
