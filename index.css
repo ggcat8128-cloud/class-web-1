@@ -1,37 +1,39 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 
 }
+
 body {
     display: flex;
     justify-content: center;
-}    
-.img{
+}
+
+.img {
     height: 773px;
     width: 1440px;
     background-image: url("HeroImage.png");
 
-    
+
 }
 
-.test{
+.test {
 
     display: flex;
-height: 100px;
-width:1440px;
+    height: 100px;
+    width: 1440px;
     justify-content: space-around;
     align-items: center;
 }
 
-.Vector{
+.Vector {
     background-image: url(Vector.png);
-    height:15px;
-    width:11.67px;
+    height: 15px;
+    width: 11.67px;
 }
 
-.circle{
+.circle {
     width: 40px;
     height: 40px;
     background-color: aliceblue;
@@ -41,20 +43,179 @@ width:1440px;
     align-items: center;
 }
 
-.tool{
+.tool {
     display: flex;
     gap: 24px;
-   
-}     
-.pure{
+
+}
+
+.pure {
     color: #E8EDF2B8;
     height: 80px;
     width: 618px;
 }
-.AWAITS{
-    height: 394px;
-    width: 618px;
+
+.AWAITS {
+    display: flex;
+    justify-content: center;
+
+    color: aliceblue;
+    font-size: 169px;
+}
+
+.year {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 64px;
+    font-weight: 900px;
+}
+
+.loc {
+    background-image: url(Location\ image.png);
+    height: 512px;
+    width: 1440px;
+    display: flex;
+    gap: 65px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.one {
+    background-image: url(1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 370px;
+    width: 252px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nameone {
+    
+    font-size: 37px;
+    font-weight: 400px;
     color: aliceblue;
 }
+
+.two {
+    background-image: url(2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 370px;
+    width: 252px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nametwo {
+    font-size: 25px;
+    font-weight: 200px;
+    color: aliceblue;
+   
+
+}
+
+.three {
+    background-image: url(3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 370px;
+    width: 252px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.namethree {
+    font-size: 30px;
+    font-weight: 300px;
+    color: aliceblue;
+    
+}
+
+.four {
+    background-image: url(4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 370px;
+    width: 252px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.namefour {
+    font-size: 30px;
+    font-weight: 300px;
+    color: aliceblue;
+
+}
+
+.roadmap {
+    background-image: url(Roadmap\ image.png);
+    height: 1022px;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+   flex-direction: column;
+}
+.Agency{
+    font-size: 42px;
+    font-weight: 600px;
+    color: black;
+   
+}
+.pack{
+    font-size: 20px;
+    font-weight: 500px;
+    color: black;
+    display: flex;
+    
+   
+}
+.buttons{
+    padding: 59px 120px 0 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    height: 518px;
+    width: 100%;
+}    
+.button-one{
+    background-color: rgba(139, 184, 193, 0.8);
+    height: 112px;
+    width: 513px;
+    border-radius: 120px;
+
+    
+  
+}
+.font-one{
+    color: black;
+    font-size: 24px;
+    font-weight: 500px;
+}
+.cont{
+    background-image: url(Icon\ Container.png);
+    height:14px;
+    width:14px;
+}
+
 
 
